@@ -28,7 +28,7 @@ const fetchMovieAvailability = async (movieName) => {
             }
             resolve([])
         }, 500)
-    })
+    });
 }
 
 export { fetchMovieList, fetchMovieAvailability }
